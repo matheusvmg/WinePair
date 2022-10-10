@@ -7,26 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D995AFE728E8AC8700AC9E84 /* WineData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D995AFE628E8AC8700AC9E84 /* WineData.swift */; };
+		D995AFEA28E8AF0300AC9E84 /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D995AFE928E8AF0300AC9E84 /* EndPointType.swift */; };
+		D995AFEC28E8AFCB00AC9E84 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = D995AFEB28E8AFCB00AC9E84 /* HTTPMethod.swift */; };
+		D995AFEE28E8B05000AC9E84 /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = D995AFED28E8B05000AC9E84 /* HTTPTask.swift */; };
+		D995AFF128E8B13700AC9E84 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = D995AFF028E8B13700AC9E84 /* ParameterEncoding.swift */; };
+		D995AFF328E8B21500AC9E84 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D995AFF228E8B21500AC9E84 /* NetworkError.swift */; };
+		D995AFF528E8B2BD00AC9E84 /* URLParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D995AFF428E8B2BD00AC9E84 /* URLParameterEncoder.swift */; };
+		D995AFF728E8B53D00AC9E84 /* JSONParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D995AFF628E8B53D00AC9E84 /* JSONParameterEncoder.swift */; };
+		D995AFF928E8B65E00AC9E84 /* NetworkRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D995AFF828E8B65E00AC9E84 /* NetworkRouter.swift */; };
+		D995AFFB28E8B7B000AC9E84 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = D995AFFA28E8B7B000AC9E84 /* Router.swift */; };
+		D995B00128E8BEAD00AC9E84 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D995B00028E8BEAD00AC9E84 /* NetworkManager.swift */; };
+		D995B00328E8BEF800AC9E84 /* NetworkEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D995B00228E8BEF700AC9E84 /* NetworkEnvironment.swift */; };
+		D995B00528E8C19700AC9E84 /* WineEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D995B00428E8C19700AC9E84 /* WineEndPoint.swift */; };
+		D995B00B28E8D7C200AC9E84 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D995B00A28E8D7C200AC9E84 /* Montserrat-Bold.ttf */; };
+		D995B00D28E8D87000AC9E84 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D995B00C28E8D87000AC9E84 /* Montserrat-Medium.ttf */; };
+		D995B00F28E8D87E00AC9E84 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D995B00E28E8D87D00AC9E84 /* Montserrat-Regular.ttf */; };
+		D995B01128E8DD8800AC9E84 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D995B01028E8DD8800AC9E84 /* Strings.swift */; };
 		D9A873B328E3892F004784BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A873B228E3892F004784BD /* AppDelegate.swift */; };
 		D9A873B528E3892F004784BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A873B428E3892F004784BD /* SceneDelegate.swift */; };
-		D9A873B728E3892F004784BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A873B628E3892F004784BD /* ViewController.swift */; };
-		D9A873BA28E3892F004784BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9A873B828E3892F004784BD /* Main.storyboard */; };
 		D9A873BC28E38933004784BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9A873BB28E38933004784BD /* Assets.xcassets */; };
 		D9A873BF28E38933004784BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9A873BD28E38933004784BD /* LaunchScreen.storyboard */; };
-		D9A873CA28E38933004784BD /* WinePairTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A873C928E38933004784BD /* WinePairTests.swift */; };
-		D9A873D428E38933004784BD /* WinePairUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A873D328E38933004784BD /* WinePairUITests.swift */; };
-		D9A873D628E38933004784BD /* WinePairUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A873D528E38933004784BD /* WinePairUITestsLaunchTests.swift */; };
+		D9A873E328E38D98004784BD /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A873E228E38D98004784BD /* Coordinator.swift */; };
+		D9AA224028E39A3E00D6EDE9 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AA223F28E39A3E00D6EDE9 /* AppCoordinator.swift */; };
+		D9AA224228E39BBA00D6EDE9 /* HomePageCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AA224128E39BBA00D6EDE9 /* HomePageCoordinator.swift */; };
+		D9AA224428E3FFB200D6EDE9 /* HomePagePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AA224328E3FFB200D6EDE9 /* HomePagePresenter.swift */; };
+		D9AA224628E4001100D6EDE9 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AA224528E4001100D6EDE9 /* HomePageViewController.swift */; };
+		D9AA224928E400E900D6EDE9 /* BaseViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AA224828E400E900D6EDE9 /* BaseViewProtocol.swift */; };
+		D9AA224B28E4038C00D6EDE9 /* DetailsPageCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AA224A28E4038C00D6EDE9 /* DetailsPageCoordinator.swift */; };
+		D9AA224D28E403BB00D6EDE9 /* DetailsPagePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AA224C28E403BB00D6EDE9 /* DetailsPagePresenter.swift */; };
+		D9AA224F28E4040000D6EDE9 /* DetailsPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AA224E28E4040000D6EDE9 /* DetailsPageViewController.swift */; };
+		D9AA225628E4064400D6EDE9 /* WebViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AA225528E4064400D6EDE9 /* WebViewCoordinator.swift */; };
+		D9AA225828E406E600D6EDE9 /* WebViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AA225728E406E600D6EDE9 /* WebViewPresenter.swift */; };
+		D9AA225A28E406F700D6EDE9 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AA225928E406F700D6EDE9 /* WebViewController.swift */; };
+		D9AA225D28E40BF000D6EDE9 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AA225C28E40BF000D6EDE9 /* Colors.swift */; };
+		D9AA225F28E40C0300D6EDE9 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AA225E28E40C0300D6EDE9 /* Fonts.swift */; };
+		D9D9368228E8E31100F15BE3 /* WineCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D9368128E8E31100F15BE3 /* WineCardTableViewCell.swift */; };
+		D9D9368428E8E40800F15BE3 /* WineCardContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D9368328E8E40800F15BE3 /* WineCardContent.swift */; };
+		D9D9368828E93EC900F15BE3 /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D9368728E93EC900F15BE3 /* EmptyView.swift */; };
+		D9E3A33D28ED3D1300193B74 /* WinePairTestsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E3A33C28ED3D1300193B74 /* WinePairTestsModule.swift */; };
+		D9E3A34728ED3DB600193B74 /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = D9E3A34628ED3DB600193B74 /* SnapshotTesting */; };
+		D9E3A34D28ED3DF100193B74 /* HomePageSnapShotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E3A34C28ED3DF100193B74 /* HomePageSnapShotTests.swift */; };
+		D9E3A34F28ED4CD600193B74 /* MockNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E3A34E28ED4CD600193B74 /* MockNetworkManager.swift */; };
+		D9E3A35128ED4EC100193B74 /* MockUINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E3A35028ED4EC100193B74 /* MockUINavigationController.swift */; };
+		D9E9855D28EFE9F900A19014 /* HomePageCoordinatorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E9855C28EFE9F900A19014 /* HomePageCoordinatorTest.swift */; };
+		D9E9855F28EFECD300A19014 /* HomePagePresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E9855E28EFECD300A19014 /* HomePagePresenterTest.swift */; };
+		D9E9856728EFFC7000A19014 /* DetailsPageSnapShotTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E9856628EFFC7000A19014 /* DetailsPageSnapShotTest.swift */; };
+		D9E9856928F0023D00A19014 /* DetailsPageCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E9856828F0023D00A19014 /* DetailsPageCoordinatorTests.swift */; };
+		D9E9856B28F006DF00A19014 /* DetailsPagePresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E9856A28F006DF00A19014 /* DetailsPagePresenterTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D9A873C628E38933004784BD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D9A873A728E3892F004784BD /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D9A873AE28E3892F004784BD;
-			remoteInfo = WinePair;
-		};
-		D9A873D028E38933004784BD /* PBXContainerItemProxy */ = {
+		D9E3A33E28ED3D1300193B74 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D9A873A728E3892F004784BD /* Project object */;
 			proxyType = 1;
@@ -36,19 +68,56 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D995AFE628E8AC8700AC9E84 /* WineData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineData.swift; sourceTree = "<group>"; };
+		D995AFE928E8AF0300AC9E84 /* EndPointType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPointType.swift; sourceTree = "<group>"; };
+		D995AFEB28E8AFCB00AC9E84 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		D995AFED28E8B05000AC9E84 /* HTTPTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
+		D995AFF028E8B13700AC9E84 /* ParameterEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		D995AFF228E8B21500AC9E84 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		D995AFF428E8B2BD00AC9E84 /* URLParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLParameterEncoder.swift; sourceTree = "<group>"; };
+		D995AFF628E8B53D00AC9E84 /* JSONParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParameterEncoder.swift; sourceTree = "<group>"; };
+		D995AFF828E8B65E00AC9E84 /* NetworkRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRouter.swift; sourceTree = "<group>"; };
+		D995AFFA28E8B7B000AC9E84 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		D995B00028E8BEAD00AC9E84 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		D995B00228E8BEF700AC9E84 /* NetworkEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkEnvironment.swift; sourceTree = "<group>"; };
+		D995B00428E8C19700AC9E84 /* WineEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineEndPoint.swift; sourceTree = "<group>"; };
+		D995B00A28E8D7C200AC9E84 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		D995B00C28E8D87000AC9E84 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		D995B00E28E8D87D00AC9E84 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		D995B01028E8DD8800AC9E84 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		D9A873AF28E3892F004784BD /* WinePair.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WinePair.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9A873B228E3892F004784BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9A873B428E3892F004784BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D9A873B628E3892F004784BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D9A873B928E3892F004784BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D9A873BB28E38933004784BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9A873BE28E38933004784BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9A873C028E38933004784BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D9A873C528E38933004784BD /* WinePairTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WinePairTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9A873C928E38933004784BD /* WinePairTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinePairTests.swift; sourceTree = "<group>"; };
-		D9A873CF28E38933004784BD /* WinePairUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WinePairUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9A873D328E38933004784BD /* WinePairUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinePairUITests.swift; sourceTree = "<group>"; };
-		D9A873D528E38933004784BD /* WinePairUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinePairUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D9A873E228E38D98004784BD /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		D9AA223F28E39A3E00D6EDE9 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		D9AA224128E39BBA00D6EDE9 /* HomePageCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageCoordinator.swift; sourceTree = "<group>"; };
+		D9AA224328E3FFB200D6EDE9 /* HomePagePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePagePresenter.swift; sourceTree = "<group>"; };
+		D9AA224528E4001100D6EDE9 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		D9AA224828E400E900D6EDE9 /* BaseViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewProtocol.swift; sourceTree = "<group>"; };
+		D9AA224A28E4038C00D6EDE9 /* DetailsPageCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsPageCoordinator.swift; sourceTree = "<group>"; };
+		D9AA224C28E403BB00D6EDE9 /* DetailsPagePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsPagePresenter.swift; sourceTree = "<group>"; };
+		D9AA224E28E4040000D6EDE9 /* DetailsPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsPageViewController.swift; sourceTree = "<group>"; };
+		D9AA225528E4064400D6EDE9 /* WebViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewCoordinator.swift; sourceTree = "<group>"; };
+		D9AA225728E406E600D6EDE9 /* WebViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewPresenter.swift; sourceTree = "<group>"; };
+		D9AA225928E406F700D6EDE9 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		D9AA225C28E40BF000D6EDE9 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		D9AA225E28E40C0300D6EDE9 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		D9D9368128E8E31100F15BE3 /* WineCardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineCardTableViewCell.swift; sourceTree = "<group>"; };
+		D9D9368328E8E40800F15BE3 /* WineCardContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineCardContent.swift; sourceTree = "<group>"; };
+		D9D9368728E93EC900F15BE3 /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
+		D9E3A33A28ED3D1300193B74 /* WinePairTestsModule.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WinePairTestsModule.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9E3A33C28ED3D1300193B74 /* WinePairTestsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinePairTestsModule.swift; sourceTree = "<group>"; };
+		D9E3A34C28ED3DF100193B74 /* HomePageSnapShotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageSnapShotTests.swift; sourceTree = "<group>"; };
+		D9E3A34E28ED4CD600193B74 /* MockNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkManager.swift; sourceTree = "<group>"; };
+		D9E3A35028ED4EC100193B74 /* MockUINavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUINavigationController.swift; sourceTree = "<group>"; };
+		D9E9855C28EFE9F900A19014 /* HomePageCoordinatorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageCoordinatorTest.swift; sourceTree = "<group>"; };
+		D9E9855E28EFECD300A19014 /* HomePagePresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePagePresenterTest.swift; sourceTree = "<group>"; };
+		D9E9856628EFFC7000A19014 /* DetailsPageSnapShotTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsPageSnapShotTest.swift; sourceTree = "<group>"; };
+		D9E9856828F0023D00A19014 /* DetailsPageCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsPageCoordinatorTests.swift; sourceTree = "<group>"; };
+		D9E9856A28F006DF00A19014 /* DetailsPagePresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsPagePresenterTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,29 +128,72 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D9A873C228E38933004784BD /* Frameworks */ = {
+		D9E3A33728ED3D1300193B74 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D9A873CC28E38933004784BD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				D9E3A34728ED3DB600193B74 /* SnapshotTesting in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D995AFE828E8AEE600AC9E84 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				D995AFE928E8AF0300AC9E84 /* EndPointType.swift */,
+				D995AFEB28E8AFCB00AC9E84 /* HTTPMethod.swift */,
+				D995AFED28E8B05000AC9E84 /* HTTPTask.swift */,
+				D995AFF228E8B21500AC9E84 /* NetworkError.swift */,
+				D995AFF828E8B65E00AC9E84 /* NetworkRouter.swift */,
+				D995AFFA28E8B7B000AC9E84 /* Router.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		D995AFEF28E8B12700AC9E84 /* Encoding */ = {
+			isa = PBXGroup;
+			children = (
+				D995AFF028E8B13700AC9E84 /* ParameterEncoding.swift */,
+				D995AFF428E8B2BD00AC9E84 /* URLParameterEncoder.swift */,
+				D995AFF628E8B53D00AC9E84 /* JSONParameterEncoder.swift */,
+			);
+			path = Encoding;
+			sourceTree = "<group>";
+		};
+		D995AFFC28E8BDA200AC9E84 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				D995B00028E8BEAD00AC9E84 /* NetworkManager.swift */,
+				D995B00228E8BEF700AC9E84 /* NetworkEnvironment.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		D995AFFD28E8BDAA00AC9E84 /* EndPoint */ = {
+			isa = PBXGroup;
+			children = (
+				D995B00428E8C19700AC9E84 /* WineEndPoint.swift */,
+			);
+			path = EndPoint;
+			sourceTree = "<group>";
+		};
+		D995B00928E8D71600AC9E84 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D995B00E28E8D87D00AC9E84 /* Montserrat-Regular.ttf */,
+				D995B00C28E8D87000AC9E84 /* Montserrat-Medium.ttf */,
+				D995B00A28E8D7C200AC9E84 /* Montserrat-Bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		D9A873A628E3892F004784BD = {
 			isa = PBXGroup;
 			children = (
 				D9A873B128E3892F004784BD /* WinePair */,
-				D9A873C828E38933004784BD /* WinePairTests */,
-				D9A873D228E38933004784BD /* WinePairUITests */,
+				D9E3A33B28ED3D1300193B74 /* WinePairTestsModule */,
 				D9A873B028E3892F004784BD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,8 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				D9A873AF28E3892F004784BD /* WinePair.app */,
-				D9A873C528E38933004784BD /* WinePairTests.xctest */,
-				D9A873CF28E38933004784BD /* WinePairUITests.xctest */,
+				D9E3A33A28ED3D1300193B74 /* WinePairTestsModule.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,32 +210,269 @@
 		D9A873B128E3892F004784BD /* WinePair */ = {
 			isa = PBXGroup;
 			children = (
+				D9A873E728E39882004784BD /* Main */,
+				D9A873E628E3987C004784BD /* Model */,
 				D9A873B228E3892F004784BD /* AppDelegate.swift */,
 				D9A873B428E3892F004784BD /* SceneDelegate.swift */,
-				D9A873B628E3892F004784BD /* ViewController.swift */,
-				D9A873B828E3892F004784BD /* Main.storyboard */,
 				D9A873BB28E38933004784BD /* Assets.xcassets */,
 				D9A873BD28E38933004784BD /* LaunchScreen.storyboard */,
 				D9A873C028E38933004784BD /* Info.plist */,
+				D9A873E228E38D98004784BD /* Coordinator.swift */,
+				D9AA223F28E39A3E00D6EDE9 /* AppCoordinator.swift */,
 			);
 			path = WinePair;
 			sourceTree = "<group>";
 		};
-		D9A873C828E38933004784BD /* WinePairTests */ = {
+		D9A873E628E3987C004784BD /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				D9A873C928E38933004784BD /* WinePairTests.swift */,
+				D995AFE628E8AC8700AC9E84 /* WineData.swift */,
+				D9D9368328E8E40800F15BE3 /* WineCardContent.swift */,
 			);
-			path = WinePairTests;
+			path = Model;
 			sourceTree = "<group>";
 		};
-		D9A873D228E38933004784BD /* WinePairUITests */ = {
+		D9A873E728E39882004784BD /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				D9A873D328E38933004784BD /* WinePairUITests.swift */,
-				D9A873D528E38933004784BD /* WinePairUITestsLaunchTests.swift */,
+				D9AA225B28E40BDF00D6EDE9 /* Configurations */,
+				D9AA225128E4060800D6EDE9 /* WebView */,
+				D9AA225028E404FA00D6EDE9 /* Network */,
+				D9AA224728E400AA00D6EDE9 /* Extensions + Util */,
+				D9A873E928E398AA004784BD /* DetailsPage */,
+				D9A873E828E3989F004784BD /* HomePage */,
 			);
-			path = WinePairUITests;
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D9A873E828E3989F004784BD /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				D9A873EC28E398C1004784BD /* Coordinator */,
+				D9A873EB28E398BC004784BD /* Presenter */,
+				D9A873EA28E398B1004784BD /* View */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		D9A873E928E398AA004784BD /* DetailsPage */ = {
+			isa = PBXGroup;
+			children = (
+				D9A873EF28E398D3004784BD /* Coordinator */,
+				D9A873EE28E398CD004784BD /* Presenter */,
+				D9A873ED28E398C8004784BD /* View */,
+			);
+			path = DetailsPage;
+			sourceTree = "<group>";
+		};
+		D9A873EA28E398B1004784BD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D9AA224528E4001100D6EDE9 /* HomePageViewController.swift */,
+				D9D9368128E8E31100F15BE3 /* WineCardTableViewCell.swift */,
+				D9D9368728E93EC900F15BE3 /* EmptyView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D9A873EB28E398BC004784BD /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				D9AA224328E3FFB200D6EDE9 /* HomePagePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		D9A873EC28E398C1004784BD /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				D9AA224128E39BBA00D6EDE9 /* HomePageCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		D9A873ED28E398C8004784BD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D9AA224E28E4040000D6EDE9 /* DetailsPageViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D9A873EE28E398CD004784BD /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				D9AA224C28E403BB00D6EDE9 /* DetailsPagePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		D9A873EF28E398D3004784BD /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				D9AA224A28E4038C00D6EDE9 /* DetailsPageCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		D9AA224728E400AA00D6EDE9 /* Extensions + Util */ = {
+			isa = PBXGroup;
+			children = (
+				D9AA224828E400E900D6EDE9 /* BaseViewProtocol.swift */,
+			);
+			path = "Extensions + Util";
+			sourceTree = "<group>";
+		};
+		D9AA225028E404FA00D6EDE9 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D995AFFD28E8BDAA00AC9E84 /* EndPoint */,
+				D995AFFC28E8BDA200AC9E84 /* Manager */,
+				D995AFEF28E8B12700AC9E84 /* Encoding */,
+				D995AFE828E8AEE600AC9E84 /* Service */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D9AA225128E4060800D6EDE9 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				D9AA225428E4063400D6EDE9 /* Coordinator */,
+				D9AA225328E4062E00D6EDE9 /* Presenter */,
+				D9AA225228E4062800D6EDE9 /* View */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		D9AA225228E4062800D6EDE9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D9AA225928E406F700D6EDE9 /* WebViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D9AA225328E4062E00D6EDE9 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				D9AA225728E406E600D6EDE9 /* WebViewPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		D9AA225428E4063400D6EDE9 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				D9AA225528E4064400D6EDE9 /* WebViewCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		D9AA225B28E40BDF00D6EDE9 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				D995B00928E8D71600AC9E84 /* Fonts */,
+				D9AA225C28E40BF000D6EDE9 /* Colors.swift */,
+				D9AA225E28E40C0300D6EDE9 /* Fonts.swift */,
+				D995B01028E8DD8800AC9E84 /* Strings.swift */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		D9E3A33B28ED3D1300193B74 /* WinePairTestsModule */ = {
+			isa = PBXGroup;
+			children = (
+				D9E3A34328ED3D7000193B74 /* Main */,
+				D9E3A33C28ED3D1300193B74 /* WinePairTestsModule.swift */,
+			);
+			path = WinePairTestsModule;
+			sourceTree = "<group>";
+		};
+		D9E3A34328ED3D7000193B74 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D9E9856028EFFC1200A19014 /* DetailsPage */,
+				D9E3A34428ED3D7700193B74 /* HomePage */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D9E3A34428ED3D7700193B74 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				D9E3A34B28ED3DD300193B74 /* Mocks */,
+				D9E3A34A28ED3DCD00193B74 /* Coordinator */,
+				D9E3A34928ED3DC800193B74 /* Presenter */,
+				D9E3A34828ED3DC300193B74 /* View */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		D9E3A34828ED3DC300193B74 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D9E3A34C28ED3DF100193B74 /* HomePageSnapShotTests.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D9E3A34928ED3DC800193B74 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				D9E9855E28EFECD300A19014 /* HomePagePresenterTest.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		D9E3A34A28ED3DCD00193B74 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				D9E9855C28EFE9F900A19014 /* HomePageCoordinatorTest.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		D9E3A34B28ED3DD300193B74 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				D9E3A34E28ED4CD600193B74 /* MockNetworkManager.swift */,
+				D9E3A35028ED4EC100193B74 /* MockUINavigationController.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		D9E9856028EFFC1200A19014 /* DetailsPage */ = {
+			isa = PBXGroup;
+			children = (
+				D9E9856328EFFC3E00A19014 /* Coordinator */,
+				D9E9856228EFFC3800A19014 /* Presenter */,
+				D9E9856128EFFC3300A19014 /* View */,
+			);
+			path = DetailsPage;
+			sourceTree = "<group>";
+		};
+		D9E9856128EFFC3300A19014 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D9E9856628EFFC7000A19014 /* DetailsPageSnapShotTest.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D9E9856228EFFC3800A19014 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				D9E9856A28F006DF00A19014 /* DetailsPagePresenterTests.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		D9E9856328EFFC3E00A19014 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				D9E9856828F0023D00A19014 /* DetailsPageCoordinatorTests.swift */,
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,45 +491,32 @@
 			dependencies = (
 			);
 			name = WinePair;
+			packageProductDependencies = (
+			);
 			productName = WinePair;
 			productReference = D9A873AF28E3892F004784BD /* WinePair.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D9A873C428E38933004784BD /* WinePairTests */ = {
+		D9E3A33928ED3D1300193B74 /* WinePairTestsModule */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D9A873DC28E38933004784BD /* Build configuration list for PBXNativeTarget "WinePairTests" */;
+			buildConfigurationList = D9E3A34028ED3D1300193B74 /* Build configuration list for PBXNativeTarget "WinePairTestsModule" */;
 			buildPhases = (
-				D9A873C128E38933004784BD /* Sources */,
-				D9A873C228E38933004784BD /* Frameworks */,
-				D9A873C328E38933004784BD /* Resources */,
+				D9E3A33628ED3D1300193B74 /* Sources */,
+				D9E3A33728ED3D1300193B74 /* Frameworks */,
+				D9E3A33828ED3D1300193B74 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D9A873C728E38933004784BD /* PBXTargetDependency */,
+				D9E3A33F28ED3D1300193B74 /* PBXTargetDependency */,
 			);
-			name = WinePairTests;
-			productName = WinePairTests;
-			productReference = D9A873C528E38933004784BD /* WinePairTests.xctest */;
+			name = WinePairTestsModule;
+			packageProductDependencies = (
+				D9E3A34628ED3DB600193B74 /* SnapshotTesting */,
+			);
+			productName = WinePairTestsModule;
+			productReference = D9E3A33A28ED3D1300193B74 /* WinePairTestsModule.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		D9A873CE28E38933004784BD /* WinePairUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D9A873DF28E38933004784BD /* Build configuration list for PBXNativeTarget "WinePairUITests" */;
-			buildPhases = (
-				D9A873CB28E38933004784BD /* Sources */,
-				D9A873CC28E38933004784BD /* Frameworks */,
-				D9A873CD28E38933004784BD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D9A873D128E38933004784BD /* PBXTargetDependency */,
-			);
-			name = WinePairUITests;
-			productName = WinePairUITests;
-			productReference = D9A873CF28E38933004784BD /* WinePairUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -190,18 +525,14 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1340;
+				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
 					D9A873AE28E3892F004784BD = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
-					D9A873C428E38933004784BD = {
-						CreatedOnToolsVersion = 13.4.1;
-						TestTargetID = D9A873AE28E3892F004784BD;
-					};
-					D9A873CE28E38933004784BD = {
-						CreatedOnToolsVersion = 13.4.1;
+					D9E3A33928ED3D1300193B74 = {
+						CreatedOnToolsVersion = 14.0.1;
 						TestTargetID = D9A873AE28E3892F004784BD;
 					};
 				};
@@ -215,13 +546,15 @@
 				Base,
 			);
 			mainGroup = D9A873A628E3892F004784BD;
+			packageReferences = (
+				D9E3A34528ED3DB600193B74 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */,
+			);
 			productRefGroup = D9A873B028E3892F004784BD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				D9A873AE28E3892F004784BD /* WinePair */,
-				D9A873C428E38933004784BD /* WinePairTests */,
-				D9A873CE28E38933004784BD /* WinePairUITests */,
+				D9E3A33928ED3D1300193B74 /* WinePairTestsModule */,
 			);
 		};
 /* End PBXProject section */
@@ -233,18 +566,13 @@
 			files = (
 				D9A873BF28E38933004784BD /* LaunchScreen.storyboard in Resources */,
 				D9A873BC28E38933004784BD /* Assets.xcassets in Resources */,
-				D9A873BA28E3892F004784BD /* Main.storyboard in Resources */,
+				D995B00D28E8D87000AC9E84 /* Montserrat-Medium.ttf in Resources */,
+				D995B00F28E8D87E00AC9E84 /* Montserrat-Regular.ttf in Resources */,
+				D995B00B28E8D7C200AC9E84 /* Montserrat-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D9A873C328E38933004784BD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D9A873CD28E38933004784BD /* Resources */ = {
+		D9E3A33828ED3D1300193B74 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,53 +586,69 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9A873B728E3892F004784BD /* ViewController.swift in Sources */,
+				D995AFEE28E8B05000AC9E84 /* HTTPTask.swift in Sources */,
+				D9AA224B28E4038C00D6EDE9 /* DetailsPageCoordinator.swift in Sources */,
+				D995AFF328E8B21500AC9E84 /* NetworkError.swift in Sources */,
+				D9AA224D28E403BB00D6EDE9 /* DetailsPagePresenter.swift in Sources */,
+				D995AFFB28E8B7B000AC9E84 /* Router.swift in Sources */,
+				D9AA225828E406E600D6EDE9 /* WebViewPresenter.swift in Sources */,
+				D9D9368228E8E31100F15BE3 /* WineCardTableViewCell.swift in Sources */,
+				D995AFEA28E8AF0300AC9E84 /* EndPointType.swift in Sources */,
+				D9AA224028E39A3E00D6EDE9 /* AppCoordinator.swift in Sources */,
+				D995AFE728E8AC8700AC9E84 /* WineData.swift in Sources */,
+				D995AFF528E8B2BD00AC9E84 /* URLParameterEncoder.swift in Sources */,
+				D9AA225628E4064400D6EDE9 /* WebViewCoordinator.swift in Sources */,
+				D995B01128E8DD8800AC9E84 /* Strings.swift in Sources */,
+				D9A873E328E38D98004784BD /* Coordinator.swift in Sources */,
+				D9D9368428E8E40800F15BE3 /* WineCardContent.swift in Sources */,
+				D995AFEC28E8AFCB00AC9E84 /* HTTPMethod.swift in Sources */,
+				D995B00128E8BEAD00AC9E84 /* NetworkManager.swift in Sources */,
+				D9AA224F28E4040000D6EDE9 /* DetailsPageViewController.swift in Sources */,
+				D9AA225F28E40C0300D6EDE9 /* Fonts.swift in Sources */,
+				D9AA224428E3FFB200D6EDE9 /* HomePagePresenter.swift in Sources */,
+				D995AFF728E8B53D00AC9E84 /* JSONParameterEncoder.swift in Sources */,
+				D9AA224228E39BBA00D6EDE9 /* HomePageCoordinator.swift in Sources */,
+				D995B00528E8C19700AC9E84 /* WineEndPoint.swift in Sources */,
+				D9AA225D28E40BF000D6EDE9 /* Colors.swift in Sources */,
+				D9AA224628E4001100D6EDE9 /* HomePageViewController.swift in Sources */,
+				D995AFF128E8B13700AC9E84 /* ParameterEncoding.swift in Sources */,
+				D9D9368828E93EC900F15BE3 /* EmptyView.swift in Sources */,
+				D9AA224928E400E900D6EDE9 /* BaseViewProtocol.swift in Sources */,
+				D995AFF928E8B65E00AC9E84 /* NetworkRouter.swift in Sources */,
 				D9A873B328E3892F004784BD /* AppDelegate.swift in Sources */,
+				D9AA225A28E406F700D6EDE9 /* WebViewController.swift in Sources */,
+				D995B00328E8BEF800AC9E84 /* NetworkEnvironment.swift in Sources */,
 				D9A873B528E3892F004784BD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D9A873C128E38933004784BD /* Sources */ = {
+		D9E3A33628ED3D1300193B74 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9A873CA28E38933004784BD /* WinePairTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D9A873CB28E38933004784BD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D9A873D628E38933004784BD /* WinePairUITestsLaunchTests.swift in Sources */,
-				D9A873D428E38933004784BD /* WinePairUITests.swift in Sources */,
+				D9E9855F28EFECD300A19014 /* HomePagePresenterTest.swift in Sources */,
+				D9E3A34F28ED4CD600193B74 /* MockNetworkManager.swift in Sources */,
+				D9E3A33D28ED3D1300193B74 /* WinePairTestsModule.swift in Sources */,
+				D9E9856728EFFC7000A19014 /* DetailsPageSnapShotTest.swift in Sources */,
+				D9E9856928F0023D00A19014 /* DetailsPageCoordinatorTests.swift in Sources */,
+				D9E9856B28F006DF00A19014 /* DetailsPagePresenterTests.swift in Sources */,
+				D9E3A35128ED4EC100193B74 /* MockUINavigationController.swift in Sources */,
+				D9E3A34D28ED3DF100193B74 /* HomePageSnapShotTests.swift in Sources */,
+				D9E9855D28EFE9F900A19014 /* HomePageCoordinatorTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D9A873C728E38933004784BD /* PBXTargetDependency */ = {
+		D9E3A33F28ED3D1300193B74 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D9A873AE28E3892F004784BD /* WinePair */;
-			targetProxy = D9A873C628E38933004784BD /* PBXContainerItemProxy */;
-		};
-		D9A873D128E38933004784BD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D9A873AE28E3892F004784BD /* WinePair */;
-			targetProxy = D9A873D028E38933004784BD /* PBXContainerItemProxy */;
+			targetProxy = D9E3A33E28ED3D1300193B74 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D9A873B828E3892F004784BD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D9A873B928E3892F004784BD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D9A873BD28E38933004784BD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,9 +786,9 @@
 				INFOPLIST_FILE = WinePair/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,7 +798,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -470,9 +814,9 @@
 				INFOPLIST_FILE = WinePair/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -482,83 +826,47 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
-		D9A873DD28E38933004784BD /* Debug */ = {
+		D9E3A34128ED3D1300193B74 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K8VD6W3JRZ;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.matheusgoes.WinePairTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matheusgoes.WinePairTestsModule;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WinePair.app/WinePair";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WinePair.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WinePair";
 			};
 			name = Debug;
 		};
-		D9A873DE28E38933004784BD /* Release */ = {
+		D9E3A34228ED3D1300193B74 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K8VD6W3JRZ;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.matheusgoes.WinePairTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matheusgoes.WinePairTestsModule;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WinePair.app/WinePair";
-			};
-			name = Release;
-		};
-		D9A873E028E38933004784BD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = K8VD6W3JRZ;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.matheusgoes.WinePairUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = WinePair;
-			};
-			name = Debug;
-		};
-		D9A873E128E38933004784BD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = K8VD6W3JRZ;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.matheusgoes.WinePairUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = WinePair;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WinePair.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WinePair";
 			};
 			name = Release;
 		};
@@ -583,25 +891,35 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D9A873DC28E38933004784BD /* Build configuration list for PBXNativeTarget "WinePairTests" */ = {
+		D9E3A34028ED3D1300193B74 /* Build configuration list for PBXNativeTarget "WinePairTestsModule" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D9A873DD28E38933004784BD /* Debug */,
-				D9A873DE28E38933004784BD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D9A873DF28E38933004784BD /* Build configuration list for PBXNativeTarget "WinePairUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D9A873E028E38933004784BD /* Debug */,
-				D9A873E128E38933004784BD /* Release */,
+				D9E3A34128ED3D1300193B74 /* Debug */,
+				D9E3A34228ED3D1300193B74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D9E3A34528ED3DB600193B74 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-snapshot-testing";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D9E3A34628ED3DB600193B74 /* SnapshotTesting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D9E3A34528ED3DB600193B74 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
+			productName = SnapshotTesting;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D9A873A728E3892F004784BD /* Project object */;
 }
